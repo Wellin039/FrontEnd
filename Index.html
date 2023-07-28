@@ -3,19 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
 
-    <div id="container"></div>
+    <div id="content">Senai</div>
 
-        <h1 id="h1">Primeiro Commit</h1>
+        <h1 id="titulo">Senai</h1>
+        <span>Nome: </span><input id="nome" on type="text">
+        <button onclick="salvar()"> Salvar </button>
+        <br><br>
 
+        <span>E-mail: </span><input id="email" on type="text">
+<!--         <button onclick="salvar()"> Salvar </button> -->
+        <br><br>
+
+        <span>Telefone: </span><input id="telefone" on type="text">
+<!--         <button onclick="salvar()"> Salvar </button> -->
+
+        <h6 id="resultado"></h6>
+        <h6 id="resultado2"></h6>
+        <h6 id="resultado3"></h6>
+
+
+<!-- 
         git status
         git add .
         git commit -m "Criar HTML e CSS"
         git push
-    
+ -->    
         <script src="Script.js"></script>
 </body>
 </html>
